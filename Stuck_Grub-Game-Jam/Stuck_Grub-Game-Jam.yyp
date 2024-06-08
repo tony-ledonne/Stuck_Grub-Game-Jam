@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -36,6 +36,10 @@
   },
   "name":"Stuck_Grub-Game-Jam",
   "resources":[
+    {"id":{"name":"Envelope_obj","path":"objects/Envelope_obj/Envelope_obj.yy",},},
+    {"id":{"name":"Mailbox_obj","path":"objects/Mailbox_obj/Mailbox_obj.yy",},},
+    {"id":{"name":"Package_obj","path":"objects/Package_obj/Package_obj.yy",},},
+    {"id":{"name":"Parent_Sticker_Room1","path":"objects/Parent_Sticker_Room1/Parent_Sticker_Room1.yy",},},
     {"id":{"name":"Background_1_1","path":"rooms/Background_1_1/Background_1_1.yy",},},
     {"id":{"name":"Background_1_Sprite1","path":"sprites/Background_1_Sprite1/Background_1_Sprite1.yy",},},
     {"id":{"name":"Sticker_cartoonEnvelope","path":"sprites/Sticker_cartoonEnvelope/Sticker_cartoonEnvelope.yy",},},

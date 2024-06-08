@@ -1,18 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"Package_obj",
-  "eventList":[],
+  "%Name":"Parent_Sticker_Room1",
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Package_obj",
+  "name":"Parent_Sticker_Room1",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"Parent_Sticker_Room1",
-    "path":"objects/Parent_Sticker_Room1/Parent_Sticker_Room1.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Sticker_cartoonPackage",
-    "path":"sprites/Sticker_cartoonPackage/Sticker_cartoonPackage.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
