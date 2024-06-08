@@ -36,8 +36,8 @@
   },
   "name":"Stuck_Grub-Game-Jam",
   "resources":[
-    {"id":{"name":"Background_1","path":"rooms/Background_1/Background_1.yy",},},
-    {"id":{"name":"Background_1_Sprite","path":"sprites/Background_1_Sprite/Background_1_Sprite.yy",},},
+    {"id":{"name":"Background_1_1","path":"rooms/Background_1_1/Background_1_1.yy",},},
+    {"id":{"name":"Background_1_Sprite1","path":"sprites/Background_1_Sprite1/Background_1_Sprite1.yy",},},
     {"id":{"name":"Sticker_cartoonEnvelope","path":"sprites/Sticker_cartoonEnvelope/Sticker_cartoonEnvelope.yy",},},
     {"id":{"name":"Sticker_cartoonMailbox","path":"sprites/Sticker_cartoonMailbox/Sticker_cartoonMailbox.yy",},},
     {"id":{"name":"Sticker_cartoonPackage","path":"sprites/Sticker_cartoonPackage/Sticker_cartoonPackage.yy",},},
@@ -49,7 +49,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Background_1","path":"rooms/Background_1/Background_1.yy",},},
+    {"roomId":{"name":"Background_1_1","path":"rooms/Background_1_1/Background_1_1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
