@@ -24,6 +24,8 @@
     {"$GMFolder":"","%Name":"Sequences","folderPath":"folders/Sequences.yy","name":"Sequences","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Shaders","folderPath":"folders/Shaders.yy","name":"Shaders","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sounds","folderPath":"folders/Sounds.yy","name":"Sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Songs","folderPath":"folders/Sounds/Songs.yy","name":"Songs","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"sound effects","folderPath":"folders/Sounds/sound effects.yy","name":"sound effects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Backgrounds","folderPath":"folders/Sprites/Backgrounds.yy","name":"Backgrounds","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Stickers","folderPath":"folders/Sprites/Stickers.yy","name":"Stickers","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -46,6 +48,22 @@
     {"id":{"name":"Parent_Sticker_Room1","path":"objects/Parent_Sticker_Room1/Parent_Sticker_Room1.yy",},},
     {"id":{"name":"SmallFlower_obj","path":"objects/SmallFlower_obj/SmallFlower_obj.yy",},},
     {"id":{"name":"Background_1_1","path":"rooms/Background_1_1/Background_1_1.yy",},},
+<<<<<<< HEAD
+    {"id":{"name":"backgroundtracksounds2min","path":"sounds/backgroundtracksounds2min/backgroundtracksounds2min.yy",},},
+    {"id":{"name":"guitarlofi","path":"sounds/guitarlofi/guitarlofi.yy",},},
+    {"id":{"name":"hardno","path":"sounds/hardno/hardno.yy",},},
+    {"id":{"name":"losingrant","path":"sounds/losingrant/losingrant.yy",},},
+    {"id":{"name":"Mediumno","path":"sounds/Mediumno/Mediumno.yy",},},
+    {"id":{"name":"Mildno","path":"sounds/Mildno/Mildno.yy",},},
+    {"id":{"name":"oohgood","path":"sounds/oohgood/oohgood.yy",},},
+    {"id":{"name":"oohyes","path":"sounds/oohyes/oohyes.yy",},},
+    {"id":{"name":"titlesound","path":"sounds/titlesound/titlesound.yy",},},
+    {"id":{"name":"winning","path":"sounds/winning/winning.yy",},},
+=======
+    {"id":{"name":"LoseScreen","path":"rooms/LoseScreen/LoseScreen.yy",},},
+    {"id":{"name":"StartScreen","path":"rooms/StartScreen/StartScreen.yy",},},
+    {"id":{"name":"WinScreen","path":"rooms/WinScreen/WinScreen.yy",},},
+>>>>>>> c8526d3cae6bc9ef39798a16c9fff597b0b09b73
     {"id":{"name":"Background_1_Sprite1","path":"sprites/Background_1_Sprite1/Background_1_Sprite1.yy",},},
     {"id":{"name":"Sticker_cartoonEnvelope","path":"sprites/Sticker_cartoonEnvelope/Sticker_cartoonEnvelope.yy",},},
     {"id":{"name":"Sticker_cartoonMailbox","path":"sprites/Sticker_cartoonMailbox/Sticker_cartoonMailbox.yy",},},
@@ -59,6 +77,9 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Background_1_1","path":"rooms/Background_1_1/Background_1_1.yy",},},
+    {"roomId":{"name":"StartScreen","path":"rooms/StartScreen/StartScreen.yy",},},
+    {"roomId":{"name":"WinScreen","path":"rooms/WinScreen/WinScreen.yy",},},
+    {"roomId":{"name":"LoseScreen","path":"rooms/LoseScreen/LoseScreen.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
