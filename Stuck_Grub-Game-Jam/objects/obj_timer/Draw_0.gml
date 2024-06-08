@@ -5,17 +5,24 @@
 var bar_width = 200; // Width of the progress bar
 var bar_height = 20; // Height of the progress bar
 var bar_x = 10; // X position of the progress bar
-var bar_y = 10; // Y position of the progress bar
+var bar_y = 40; // Y position of the progress bar (adjusted to fit the title)
 
 // Calculate the progress percentage
 var progress = timer / max_time;
+
+// Draw the title text above the progress bar
+draw_set_halign(fa_left);
+draw_set_valign(fa_top);
+draw_set_font(fnt_title); // Make sure you have a font resource named 'fnt_title'
+draw_set_color(c_white);
+draw_text(bar_x, bar_y - 30, "Frustration Meter"); // Position the title above the bar
 
 // Draw the background of the progress bar
 draw_set_color(c_black);
 draw_rectangle(bar_x, bar_y, bar_x + bar_width, bar_y + bar_height, false);
 
-// Draw the filled part of the progress bar
-draw_set_color(c_green);
+// Draw the filled part of the progress bar in red
+draw_set_color(c_red);
 draw_rectangle(bar_x, bar_y, bar_x + (bar_width * progress), bar_y + bar_height, false);
 
 // Optional: Draw a border around the progress bar
