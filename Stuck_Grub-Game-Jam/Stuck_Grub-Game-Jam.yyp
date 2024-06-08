@@ -51,7 +51,7 @@
     {"id":{"name":"LoseRoom","path":"rooms/LoseRoom/LoseRoom.yy",},},
     {"id":{"name":"StartRoom","path":"rooms/StartRoom/StartRoom.yy",},},
     {"id":{"name":"WinRoom","path":"rooms/WinRoom/WinRoom.yy",},},
-    {"id":{"name":"backgroundtracksounds2min","path":"sounds/backgroundtracksounds2min/backgroundtracksounds2min.yy",},},
+    {"id":{"name":"background","path":"sounds/background/background.yy",},},
     {"id":{"name":"guitarlofi","path":"sounds/guitarlofi/guitarlofi.yy",},},
     {"id":{"name":"hardno","path":"sounds/hardno/hardno.yy",},},
     {"id":{"name":"losingrant","path":"sounds/losingrant/losingrant.yy",},},

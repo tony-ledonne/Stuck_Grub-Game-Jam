@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"backgroundtracksounds2min",
+  "%Name":"background",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,7 +10,7 @@
   "compression":0,
   "conversionMode":0,
   "duration":120.410385,
-  "name":"backgroundtracksounds2min",
+  "name":"background",
   "parent":{
     "name":"sound effects",
     "path":"folders/Sounds/sound effects.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"backgroundtracksounds2min.wav",
+  "soundFile":"background.wav",
   "type":0,
   "volume":1.0,
 }
