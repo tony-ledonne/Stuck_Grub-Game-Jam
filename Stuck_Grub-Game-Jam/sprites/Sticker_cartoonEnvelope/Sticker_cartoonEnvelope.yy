@@ -1,7 +1,7 @@
 {
   "$GMSprite":"",
   "%Name":"Sticker_cartoonEnvelope",
-  "bboxMode":2,
+  "bboxMode":0,
   "bbox_bottom":138,
   "bbox_left":7,
   "bbox_right":120,

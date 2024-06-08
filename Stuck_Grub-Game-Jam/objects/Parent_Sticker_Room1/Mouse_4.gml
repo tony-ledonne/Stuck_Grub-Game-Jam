@@ -3,20 +3,20 @@ var object_subset = [Envelope_obj, Mailbox_obj, Package_obj, SmallFlower_obj];
 
 // Check if the mouse is over the sprite
 if (mouse_x >= x && mouse_x <= x + sprite_width && mouse_y >= y && mouse_y <= y + sprite_height) {
-	var _fully_visible = true;
+	//var Clickable = true;
     
   // Loop through all instances of the parent object to check if any child sticker obscures this one
-with(Parent_Sticker_Room1) {
+//with(Parent_Sticker_Room1) {
     // Skip the current instance (parent object)
-    if (id != other.id) {
+    //if (id != other.id) {
         // Check if the current sticker obscures the clicked one
-        if (bbox_left < other.bbox_right && bbox_right > other.bbox_left &&
-            bbox_top < other.bbox_bottom && bbox_bottom > other.bbox_top) {
-            _fully_visible = false;
-            break; // No need to continue checking if obscured
-        }
-    }
-}
+       // if (bbox_left < other.bbox_right && bbox_right > other.bbox_left &&
+           // bbox_top < other.bbox_bottom && bbox_bottom > other.bbox_top) {
+          //  Clickable = false;
+         //   break; // No need to continue checking if obscured
+       // }
+   // }
+//}
     // Check if the "pink" variable of the clicked object is true
     if (variable_instance_exists(self, "pink") && pink) {
         // Spawn first object
