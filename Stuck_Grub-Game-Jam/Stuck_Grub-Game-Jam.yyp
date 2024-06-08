@@ -40,6 +40,7 @@
     {"id":{"name":"Mailbox_obj","path":"objects/Mailbox_obj/Mailbox_obj.yy",},},
     {"id":{"name":"Package_obj","path":"objects/Package_obj/Package_obj.yy",},},
     {"id":{"name":"Parent_Sticker_Room1","path":"objects/Parent_Sticker_Room1/Parent_Sticker_Room1.yy",},},
+    {"id":{"name":"SmallFlower_obj","path":"objects/SmallFlower_obj/SmallFlower_obj.yy",},},
     {"id":{"name":"Background_1_1","path":"rooms/Background_1_1/Background_1_1.yy",},},
     {"id":{"name":"Background_1_Sprite1","path":"sprites/Background_1_Sprite1/Background_1_Sprite1.yy",},},
     {"id":{"name":"Sticker_cartoonEnvelope","path":"sprites/Sticker_cartoonEnvelope/Sticker_cartoonEnvelope.yy",},},
