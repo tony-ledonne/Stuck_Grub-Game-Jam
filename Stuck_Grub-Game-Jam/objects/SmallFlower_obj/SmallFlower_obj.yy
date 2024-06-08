@@ -4,7 +4,11 @@
   "eventList":[],
   "managed":true,
   "name":"SmallFlower_obj",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Parent_Sticker_Room1","path":"objects/Parent_Sticker_Room1/Parent_Sticker_Room1.yy",},"propertyId":{"name":"pink","path":"objects/Parent_Sticker_Room1/Parent_Sticker_Room1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Parent_Sticker_Room1","path":"objects/Parent_Sticker_Room1/Parent_Sticker_Room1.yy",},"propertyId":{"name":"life","path":"objects/Parent_Sticker_Room1/Parent_Sticker_Room1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Parent_Sticker_Room1","path":"objects/Parent_Sticker_Room1/Parent_Sticker_Room1.yy",},"propertyId":{"name":"cartoon","path":"objects/Parent_Sticker_Room1/Parent_Sticker_Room1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
+  ],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
@@ -26,13 +30,7 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v1","%Name":"pink","filters":[],"listItems":[],"multiselect":false,"name":"pink","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"True","varType":3,},
-    {"$GMObjectProperty":"v1","%Name":"life","filters":[],"listItems":[],"multiselect":false,"name":"life","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"True","varType":3,},
-    {"$GMObjectProperty":"v1","%Name":"flower","filters":[],"listItems":[],"multiselect":false,"name":"flower","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"True","varType":3,},
-    {"$GMObjectProperty":"v1","%Name":"cartoon","filters":[],"listItems":[],"multiselect":false,"name":"cartoon","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"True","varType":3,},
-    {"$GMObjectProperty":"v1","%Name":"starts_with_F","filters":[],"listItems":[],"multiselect":false,"name":"starts_with_F","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"True","varType":3,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
