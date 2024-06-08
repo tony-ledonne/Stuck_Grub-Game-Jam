@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":16.991135,
   "name":"guitarlofi",
   "parent":{
     "name":"Songs",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"guitarlofi",
+  "soundFile":"guitarlofi.wav",
   "type":0,
   "volume":1.0,
 }
