@@ -97,6 +97,9 @@ if (mouse_x >= x && mouse_x <= x + sprite_width && mouse_y >= y && mouse_y <= y 
             audio_play_sound(Mildno, 1, false); // Arguments: (sound, priority, loop)
             // Set volume
             audio_sound_gain(Mildno, 1.3, 0);
+// Set the object's rot
+//ation to a random angle between 0 and 360 degrees
+image_angle = irandom_range(0, 360);
 
             // Spawn first object
             var random_index1 = irandom_range(0, array_length_1d(object_subset) - 1);
@@ -172,6 +175,10 @@ if (mouse_x >= x && mouse_x <= x + sprite_width && mouse_y >= y && mouse_y <= y 
             audio_play_sound(Mildno, 1, false); // Arguments: (sound, priority, loop)
             // Set volume
             audio_sound_gain(Mildno, 1.3, 0);
+
+// Set the object's rot
+//ation to a random angle between 0 and 360 degrees
+image_angle = irandom_range(0, 360);
 
             // Spawn first object
             var random_index1 = irandom_range(0, array_length_1d(object_subset) - 1);
