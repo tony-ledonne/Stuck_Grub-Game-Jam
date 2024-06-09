@@ -71,11 +71,7 @@ if (room == Background_1_1) {
 		    }
 		}
 */
-            } else {
-				 // Set depth to be less than the depth of the sticker(s) it overlaps with
-				depth = other.depth - 1;	
-				clickable = true;
-			}
+           			}
         }
    // Check Room
 if (room == Background_1_2) {
