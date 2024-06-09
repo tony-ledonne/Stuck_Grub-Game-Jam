@@ -1,6 +1,6 @@
 // Check Room
 if (room == Background_1_1) {
-	// Define an array containing the names of the objects in the subset (-winner1)
+	// Define an array containing the names of the objects in the subset (- winner1)
 	var object_subset = [Envelope_obj, Mailbox_obj, Package_obj, SmallFlower_obj, Acorns_obj, Axe_obj, Bear_obj, Bed_obj, Butterfly_obj, Canoe_obj, dogSmile_obj, dogSpot_obj, Fern_obj, Fire_obj, Jump_obj, kidBalloon_obj, kidBike_obj, kidCowboyHat_obj, kidGameGuy_obj, kidIceCream_obj, kidKite_obj, kidSoda_obj, kidSunglasses_obj, kidTire_obj, Lantern_obj, Lick_obj, Mailbox_obj, Milk_obj, PineCone_obj, SleepingBag_obj, Smile_obj, Snail_obj, Stamp_obj, Tent_obj, vintageBug_obj, vintageButterfly_obj, vintageLeaf_obj, vintageMushroom_obj, Wax_obj];
 
 	// Check if the mouse is over the sprite
@@ -75,8 +75,8 @@ if (room == Background_1_1) {
         }
    // Check Room
 if (room == Background_1_2) {
-// Define an array containing the names of the objects in the subset (- Luca)
-var object_subset = [Envelope_obj, Mailbox_obj, Package_obj, SmallFlower_obj, Acorns_obj, Axe_obj, Bear_obj, Bed_obj, Butterfly_obj, Canoe_obj, dogSmile_obj, dogSpot_obj, Fern_obj, Fire_obj, Jump_obj, kidBalloon_obj, kidBike_obj, kidCowboyHat_obj, kidGameGuy_obj, kidIceCream_obj, kidKite_obj, kidSoda_obj, kidSunglasses_obj, kidTire_obj, Lantern_obj, Lick_obj, Mailbox_obj, Milk_obj, PineCone_obj, SleepingBag_obj, Smile_obj, Snail_obj, Stamp_obj, Tent_obj, vintageBug_obj, vintageButterfly_obj, vintageLeaf_obj, vintageMushroom_obj, Wax_obj];
+// Define an array containing the names of the objects in the subset (- winner)
+var object_subset = [Envelope_obj, Mailbox_obj, Package_obj, SmallFlower_obj, Acorns_obj, Axe_obj, Bear_obj, Bed_obj, Butterfly_obj, Canoe_obj, dogSmile_obj, dogSpot_obj, Fern_obj, Fire_obj, Jump_obj, kidBalloon_obj, kidBike_obj, kidCowboyHat_obj, kidGameGuy_obj, kidIceCream_obj, kidKite_obj, kidSoda_obj, Luca_obj, kidTire_obj, Lantern_obj, Lick_obj, Mailbox_obj, Milk_obj, PineCone_obj, SleepingBag_obj, Smile_obj, Snail_obj, Stamp_obj, Tent_obj, vintageBug_obj, vintageButterfly_obj, vintageLeaf_obj, vintageMushroom_obj, Wax_obj];
 
 // Check if the mouse is over the sprite
 if (mouse_x >= x && mouse_x <= x + sprite_width && mouse_y >= y && mouse_y <= y + sprite_height) {
@@ -85,7 +85,7 @@ if (mouse_x >= x && mouse_x <= x + sprite_width && mouse_y >= y && mouse_y <= y 
         // Change room to the desired room
         room_goto(Background_1_3); 
     } else {
-        // Check if the "pink" variable of the clicked object is true
+        // Check if the "nature" or "violet" variable of the clicked object is true
         if (nature || violet) {
             // Play the bad sound
             audio_play_sound(Mildno, 1, false); // Arguments: (sound, priority, loop)
@@ -150,8 +150,8 @@ if (mouse_x >= x && mouse_x <= x + sprite_width && mouse_y >= y && mouse_y <= y 
 
   // Check Room
 if (room == Background_1_3) {
-// Define an array containing the names of the objects in the subset (- Luca)
-var object_subset = [Envelope_obj, Mailbox_obj, Package_obj, SmallFlower_obj, Acorns_obj, Axe_obj, Bear_obj, Bed_obj, Butterfly_obj, Canoe_obj, dogSmile_obj, dogSpot_obj, Fern_obj, Fire_obj, Jump_obj, kidBalloon_obj, kidBike_obj, kidCowboyHat_obj, kidGameGuy_obj, kidIceCream_obj, kidKite_obj, kidSoda_obj, kidSunglasses_obj, kidTire_obj, Lantern_obj, Lick_obj, Mailbox_obj, Milk_obj, PineCone_obj, SleepingBag_obj, Smile_obj, Snail_obj, Stamp_obj, Tent_obj, vintageBug_obj, vintageButterfly_obj, vintageLeaf_obj, vintageMushroom_obj, Wax_obj];
+// Define an array containing the names of the objects in the subset (- winner)
+var object_subset = [Envelope_obj, Mailbox_obj, Package_obj, SmallFlower_obj, Acorns_obj, Axe_obj, Bear_obj, Bed_obj, Butterfly_obj, Canoe_obj, dogSmile_obj, dogSpot_obj, Fern_obj, Fire_obj, Jump_obj, kidBalloon_obj, kidBike_obj, kidCowboyHat_obj, kidGameGuy_obj, kidIceCream_obj, kidKite_obj, kidSoda_obj, kidSunglasses_obj, kidTire_obj, Lantern_obj, Lick_obj, Mailbox_obj, Milk_obj, PineCone_obj, SleepingBag_obj, Smile_obj, Luca_obj, Stamp_obj, Tent_obj, vintageBug_obj, vintageButterfly_obj, vintageLeaf_obj, vintageMushroom_obj, Wax_obj];
 
 // Check if the mouse is over the sprite
 if (mouse_x >= x && mouse_x <= x + sprite_width && mouse_y >= y && mouse_y <= y + sprite_height) {
@@ -160,7 +160,7 @@ if (mouse_x >= x && mouse_x <= x + sprite_width && mouse_y >= y && mouse_y <= y 
         // Change room to the desired room
         room_goto(WinRoom); 
     } else {
-        // Check if the "pink" variable of the clicked object is true
+        // Check if the "brown" or "dog" variable of the clicked object is true
         if (Brown || Dogs) {
             // Play the bad sound
             audio_play_sound(Mildno, 1, false); // Arguments: (sound, priority, loop)
