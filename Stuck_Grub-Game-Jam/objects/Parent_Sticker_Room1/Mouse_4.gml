@@ -20,7 +20,12 @@ if (room == Background_1_1) {
 		                if (collision_point(xx, yy, other, false, true)) {
 		                    overlap = true; */
        // Change room to the desired room
-	        room_goto(Background_1_2); 
+	        if( place_meeting(x, y, Parent_Sticker_Room1)==false)
+			
+			{
+		   
+				room_goto(Background_1_2); 
+			}
 	    } else {
 	        // Check if the "green" or "cats" variable of the clicked object is true
 	        if (cat || green) {
@@ -28,9 +33,9 @@ if (room == Background_1_1) {
 	            audio_play_sound(Mildno, 1, false); // Arguments: (sound, priority, loop)
 	            // Set volume
 	            audio_sound_gain(Mildno, 1.3, 0);
-// Set the object's rot
-//ation to a random angle between 0 and 360 degrees
-image_angle = irandom_range(0, 360);
+				// Set the object's rot
+				//ation to a random angle between 0 and 360 degrees
+				image_angle = irandom_range(0, 360);
 
 
 	            // Spawn first object
@@ -54,8 +59,10 @@ image_angle = irandom_range(0, 360);
 	        }
 	    }
 	
-	
-	    instance_destroy(); // Remove the sprite from the game
+		if(!winner1)
+		{
+			instance_destroy(); // Remove the sprite from the game
+		}
 
 		
 		/*                }
@@ -88,8 +95,9 @@ var object_subset = [Envelope_obj, Mailbox_obj, Package_obj, SmallFlower_obj, Ac
 if (mouse_x >= x && mouse_x <= x + sprite_width && mouse_y >= y && mouse_y <= y + sprite_height) {
     // Check if the "winner" variable of the clicked object is true
     if (variable_instance_exists(self, "winner2") && winner2) {
-        // Change room to the desired room
-        room_goto(Background_1_3); 
+		if( place_meeting(x, y, Parent_Sticker_Room1)==false)
+			// Change room to the desired room
+			room_goto(Background_1_3); 
     } else {
         // Check if the "nature" or "violet" variable of the clicked object is true
         if (nature || violet) {
@@ -121,8 +129,8 @@ image_angle = irandom_range(0, 360);
             audio_sound_gain(oohgood, 0.3, 0);
         }
     }
-	
-    instance_destroy(); // Remove the sprite from the game
+	if(!winner2)
+	 instance_destroy(); // Remove the sprite from the game
 
 // Check for overlaps with pre-existing sticker objects
 /* with(Parent_Sticker_Room1) {
@@ -166,8 +174,9 @@ var object_subset = [Envelope_obj, Mailbox_obj, Package_obj, SmallFlower_obj, Ac
 if (mouse_x >= x && mouse_x <= x + sprite_width && mouse_y >= y && mouse_y <= y + sprite_height) {
     // Check if the "winner" variable of the clicked object is true
     if (variable_instance_exists(self, "winner3") && winner3) {
-        // Change room to the desired room
-        room_goto(WinRoom); 
+		if( place_meeting(x, y, Parent_Sticker_Room1)==false)
+			// Change room to the desired room
+			room_goto(WinRoom); 
     } else {
         // Check if the "brown" or "dog" variable of the clicked object is true
         if (brown || dogs) {
@@ -200,8 +209,8 @@ image_angle = irandom_range(0, 360);
             audio_sound_gain(oohgood, 0.3, 0);
         }
     }
-	
-    instance_destroy(); // Remove the sprite from the game
+	if(!winner3)
+	  instance_destroy(); // Remove the sprite from the game
 
 // Check for overlaps with pre-existing sticker objects
 /* with(Parent_Sticker_Room1) {
