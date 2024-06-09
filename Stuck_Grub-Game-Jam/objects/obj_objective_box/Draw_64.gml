@@ -15,5 +15,5 @@ draw_set_color(c_black);
 
 
 // Draw the objective text at a specific position
-var objective_text = "Help me find my favorite dog sticker, dear....but watch out for haunted stickers!";
+var objective_text = "Help me find my favorite dog sticker, dear...but watch out for haunted stickers!";
 draw_text(50, 50, objective_text);
