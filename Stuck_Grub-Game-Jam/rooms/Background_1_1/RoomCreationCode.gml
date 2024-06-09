@@ -12,3 +12,7 @@ if (audio_is_playing(background)) {
     audio_stop_sound(background);
 }
 audio_play_sound(background, 2, true); // Arguments: (sound, priority, loop)
+
+// Set volume to 25% for guitar
+audio_sound_gain(guitarlofi, 0.2, 0); 
+
