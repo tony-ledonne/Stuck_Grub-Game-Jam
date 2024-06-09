@@ -8,3 +8,19 @@ if (room == Background_1_1) {
         instance_destroy();
     }
 }
+
+// Room End Event
+if (room == Background_1_2) {
+    window_set_cursor(cr_default);
+    with (obj_hand_cursor) {
+        instance_destroy();
+    }
+}
+
+// Room End Event
+if (room == Background_1_3) {
+    window_set_cursor(cr_default);
+    with (obj_hand_cursor) {
+        instance_destroy();
+    }
+}
