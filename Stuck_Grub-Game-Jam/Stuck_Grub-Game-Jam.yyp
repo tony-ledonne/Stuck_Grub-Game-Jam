@@ -120,8 +120,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Background_1_1","path":"rooms/Background_1_1/Background_1_1.yy",},},
     {"roomId":{"name":"StartRoom","path":"rooms/StartRoom/StartRoom.yy",},},
+    {"roomId":{"name":"Background_1_1","path":"rooms/Background_1_1/Background_1_1.yy",},},
     {"roomId":{"name":"WinRoom","path":"rooms/WinRoom/WinRoom.yy",},},
     {"roomId":{"name":"LoseRoom","path":"rooms/LoseRoom/LoseRoom.yy",},},
   ],
