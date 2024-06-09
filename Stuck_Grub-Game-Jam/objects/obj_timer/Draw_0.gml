@@ -14,4 +14,4 @@ var current_height = (time_remaining / max_time) * bar_height;
 var fill_start_y = y + sprite_height - current_height;
 
 // Draw the filling bar
-draw_sprite_part(timer_fill_sprite, 1, 0, 0, sprite_width, current_height, x , y);
+draw_sprite_part(timer_fill_sprite, 1, 0, 0, sprite_width, sprite_height - current_height, x , y);
