@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_Button_Quit",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_Button_Quit",
   "overriddenProperties":[],
