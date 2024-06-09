@@ -21,9 +21,6 @@ with(Parent_Sticker_Room1) {
 // Initialize the clickable variable
 clickable = true;
 
-// Set the object's rot
-//ation to a random angle between 0 and 360 degrees
-image_angle = irandom_range(0, 360);
 
 
 // Check for overlaps with pre-existing sticker objects
