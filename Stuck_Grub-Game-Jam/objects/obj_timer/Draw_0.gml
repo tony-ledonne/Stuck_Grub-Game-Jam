@@ -11,7 +11,7 @@ draw_sprite(spr_timer, 0, x, y);
 var current_height = (time_remaining / max_time) * bar_height;
 
 // Calculate the x position to start drawing the fill bar from the right
-var fill_start_y = y + sprite_height - fill_y_offset - current_height;
+var fill_start_y = y + sprite_height - current_height;
 
 // Draw the filling bar
-draw_sprite_part(timer_fill_sprite, 1, 0, 0, sprite_width, current_height, x , y - fill_start_y);
+draw_sprite_part(timer_fill_sprite, 1, 0, 0, sprite_width, current_height, x , y);

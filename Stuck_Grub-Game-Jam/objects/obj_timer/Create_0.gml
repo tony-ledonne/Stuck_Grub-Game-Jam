@@ -10,7 +10,7 @@ timer_background = spr_timer;
 time_remaining = 0;
 max_time = 15 * room_speed; // room_speed gives the number of steps per second
 
-// Maximum width of the timer bar
+// Maximum height of the timer bar
 bar_height = sprite_height;
 
 // Sprite for the timer fill
