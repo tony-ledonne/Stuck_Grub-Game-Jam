@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"Sticker_cartoonStamp",
   "bboxMode":0,
-  "bbox_bottom":102,
-  "bbox_left":6,
-  "bbox_right":100,
+  "bbox_bottom":197,
+  "bbox_left":5,
+  "bbox_right":189,
   "bbox_top":3,
   "collisionKind":4,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"03b4bf42-2b8a-4607-8663-c98a21a03f0c","name":"03b4bf42-2b8a-4607-8663-c98a21a03f0c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"3072c0de-19b0-413f-bf81-04ed11c58008","name":"3072c0de-19b0-413f-bf81-04ed11c58008","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":107,
+  "height":201,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"5ed8193c-1ac9-483d-9477-aed966b34129","blendMode":0,"displayName":"default","isLocked":false,"name":"5ed8193c-1ac9-483d-9477-aed966b34129","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"e59ba096-172e-400d-8257-af40d357b493","blendMode":0,"displayName":"default","isLocked":false,"name":"e59ba096-172e-400d-8257-af40d357b493","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Sticker_cartoonStamp",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"03b4bf42-2b8a-4607-8663-c98a21a03f0c","path":"sprites/Sticker_cartoonStamp/Sticker_cartoonStamp.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ea9ffe0e-f884-4e7f-80c5-f999dd49d50c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3072c0de-19b0-413f-bf81-04ed11c58008","path":"sprites/Sticker_cartoonStamp/Sticker_cartoonStamp.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5f484236-eae8-4f23-93d2-826186934d72","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":104,
+  "width":194,
 }
