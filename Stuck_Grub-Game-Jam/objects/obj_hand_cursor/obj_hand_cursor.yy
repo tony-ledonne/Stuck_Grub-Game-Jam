@@ -1,7 +1,10 @@
 {
   "$GMObject":"",
   "%Name":"obj_hand_cursor",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_hand_cursor",
   "overriddenProperties":[],
@@ -28,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Hand_Cursor_spr",
-    "path":"sprites/Hand_Cursor_spr/Hand_Cursor_spr.yy",
+    "name":"spr_hand_cursor",
+    "path":"sprites/spr_hand_cursor/spr_hand_cursor.yy",
   },
   "spriteMaskId":null,
   "visible":true,
