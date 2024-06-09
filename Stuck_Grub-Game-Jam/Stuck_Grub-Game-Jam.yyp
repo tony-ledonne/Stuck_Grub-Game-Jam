@@ -98,6 +98,7 @@
     {"id":{"name":"Background_1_1","path":"rooms/Background_1_1/Background_1_1.yy",},},
     {"id":{"name":"Background_1_2","path":"rooms/Background_1_2/Background_1_2.yy",},},
     {"id":{"name":"Background_1_3","path":"rooms/Background_1_3/Background_1_3.yy",},},
+    {"id":{"name":"Background_1_4","path":"rooms/Background_1_4/Background_1_4.yy",},},
     {"id":{"name":"LoseRoom","path":"rooms/LoseRoom/LoseRoom.yy",},},
     {"id":{"name":"StartRoom","path":"rooms/StartRoom/StartRoom.yy",},},
     {"id":{"name":"WinRoom","path":"rooms/WinRoom/WinRoom.yy",},},
@@ -182,6 +183,7 @@
     {"roomId":{"name":"LoseRoom","path":"rooms/LoseRoom/LoseRoom.yy",},},
     {"roomId":{"name":"Background_1_2","path":"rooms/Background_1_2/Background_1_2.yy",},},
     {"roomId":{"name":"Background_1_3","path":"rooms/Background_1_3/Background_1_3.yy",},},
+    {"roomId":{"name":"Background_1_4","path":"rooms/Background_1_4/Background_1_4.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

@@ -146,6 +146,7 @@ if (mouse_x >= x && mouse_x <= x + sprite_width && mouse_y >= y && mouse_y <= y 
 }
 } */
 }
+}
 
   // Check Room
 if (room == Background_1_3) {
@@ -293,4 +294,3 @@ if (room == Background_1_3){
 		}
 */
 	}
-}
