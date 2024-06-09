@@ -1,15 +1,25 @@
 // Check Room
 if (room == Background_1_1) {
 	// Define an array containing the names of the objects in the subset (- winner1)
-	var object_subset = [Envelope_obj, Mailbox_obj, Package_obj, SmallFlower_obj, Acorns_obj, Axe_obj, Bear_obj, Bed_obj, Butterfly_obj, Canoe_obj, dogSmile_obj, dogSpot_obj, Fern_obj, Fire_obj, Jump_obj, kidBalloon_obj, kidBike_obj, kidCowboyHat_obj, kidGameGuy_obj, kidIceCream_obj, kidKite_obj, kidSoda_obj, kidSunglasses_obj, kidTire_obj, Lantern_obj, Lick_obj, Mailbox_obj, Milk_obj, PineCone_obj, SleepingBag_obj, Smile_obj, Snail_obj, Stamp_obj, Tent_obj, vintageBug_obj, vintageButterfly_obj, vintageLeaf_obj, vintageMushroom_obj, Wax_obj];
+	var object_subset = [Envelope_obj, Mailbox_obj, Package_obj, SmallFlower_obj, Acorns_obj, Axe_obj, Bear_obj, Bed_obj, Butterfly_obj, Canoe_obj, dogSmile_obj, dogSpot_obj, Fern_obj, Fire_obj, Jump_obj, kidBalloon_obj, kidBike_obj, kidCowboyHat_obj, kidGameGuy_obj, kidIceCream_obj, kidKite_obj, kidSoda_obj, kidTire_obj, Lantern_obj, Lick_obj, Mailbox_obj, Milk_obj, PineCone_obj, SleepingBag_obj, Smile_obj, Stamp_obj, Tent_obj, vintageBug_obj, vintageButterfly_obj, vintageLeaf_obj, vintageMushroom_obj, Wax_obj];
 
 
 
 	// Check if the mouse is over the sprite
 	if (mouse_x >= x && mouse_x <= x + sprite_width && mouse_y >= y && mouse_y <= y + sprite_height) {
 	    // Check if the "winner" variable of the clicked object is true
-	    if (variable_instance_exists(self, "winner1") && winner1) {
-	        // Change room to the desired room
+	   if (variable_instance_exists(self, "winner1") && winner1) {
+	 /*  // Check if winner sticker is overlapped
+		if(Parent_Sticker_Room1) {
+		    // Skip self
+		    if (id != other.id) {
+		        // Check for pixel-perfect collision
+		        var overlap = false;
+		        for (var xx = bbox_left; xx < bbox_right; xx += 1) {
+		            for (var yy = bbox_top; yy < bbox_bottom; yy += 1) {
+		                if (collision_point(xx, yy, other, false, true)) {
+		                    overlap = true; */
+       // Change room to the desired room
 	        room_goto(Background_1_2); 
 	    } else {
 	        // Check if the "green" or "cats" variable of the clicked object is true
@@ -47,18 +57,8 @@ image_angle = irandom_range(0, 360);
 	
 	    instance_destroy(); // Remove the sprite from the game
 
-		// Check for overlaps with pre-existing sticker objects
-/*		with(Parent_Sticker_Room1) {
-		    // Skip self
-		    if (id != other.id) {
-		        // Check for pixel-perfect collision
-		        var overlap = false;
-		        for (var xx = bbox_left; xx < bbox_right; xx += 1) {
-		            for (var yy = bbox_top; yy < bbox_bottom; yy += 1) {
-		                if (collision_point(xx, yy, other, false, true)) {
-		                    overlap = true;
-		                    break;
-		                }
+		
+		/*                }
 		            }
 		            if (overlap) break;
 		        }
@@ -82,7 +82,7 @@ image_angle = irandom_range(0, 360);
    // Check Room
 if (room == Background_1_2) {
 // Define an array containing the names of the objects in the subset (- winner)
-var object_subset = [Envelope_obj, Mailbox_obj, Package_obj, SmallFlower_obj, Acorns_obj, Axe_obj, Bear_obj, Bed_obj, Butterfly_obj, Canoe_obj, dogSmile_obj, dogSpot_obj, Fern_obj, Fire_obj, Jump_obj, kidBalloon_obj, kidBike_obj, kidCowboyHat_obj, kidGameGuy_obj, kidIceCream_obj, kidKite_obj, kidSoda_obj, Luca_obj, kidTire_obj, Lantern_obj, Lick_obj, Mailbox_obj, Milk_obj, PineCone_obj, SleepingBag_obj, Smile_obj, Snail_obj, Stamp_obj, Tent_obj, vintageBug_obj, vintageButterfly_obj, vintageLeaf_obj, vintageMushroom_obj, Wax_obj];
+var object_subset = [Envelope_obj, Mailbox_obj, Package_obj, SmallFlower_obj, Acorns_obj, Axe_obj, Bear_obj, Bed_obj, Butterfly_obj, Canoe_obj, dogSmile_obj, dogSpot_obj, Fern_obj, Fire_obj, Jump_obj, kidBalloon_obj, kidBike_obj, kidCowboyHat_obj, kidGameGuy_obj, kidIceCream_obj, kidKite_obj, kidSoda_obj, kidTire_obj, Lantern_obj, Lick_obj, Mailbox_obj, Milk_obj, PineCone_obj, SleepingBag_obj, Smile_obj, Stamp_obj, Tent_obj, vintageBug_obj, vintageButterfly_obj, vintageLeaf_obj, vintageMushroom_obj, Wax_obj];
 
 // Check if the mouse is over the sprite
 if (mouse_x >= x && mouse_x <= x + sprite_width && mouse_y >= y && mouse_y <= y + sprite_height) {
@@ -160,7 +160,7 @@ image_angle = irandom_range(0, 360);
   // Check Room
 if (room == Background_1_3) {
 // Define an array containing the names of the objects in the subset (- winner)
-var object_subset = [Envelope_obj, Mailbox_obj, Package_obj, SmallFlower_obj, Acorns_obj, Axe_obj, Bear_obj, Bed_obj, Butterfly_obj, Canoe_obj, dogSmile_obj, dogSpot_obj, Fern_obj, Fire_obj, Jump_obj, kidBalloon_obj, kidBike_obj, kidCowboyHat_obj, kidGameGuy_obj, kidIceCream_obj, kidKite_obj, kidSoda_obj, kidSunglasses_obj, kidTire_obj, Lantern_obj, Lick_obj, Mailbox_obj, Milk_obj, PineCone_obj, SleepingBag_obj, Smile_obj, Luca_obj, Stamp_obj, Tent_obj, vintageBug_obj, vintageButterfly_obj, vintageLeaf_obj, vintageMushroom_obj, Wax_obj];
+var object_subset = [Envelope_obj, Mailbox_obj, Package_obj, SmallFlower_obj, Acorns_obj, Axe_obj, Bear_obj, Bed_obj, Butterfly_obj, Canoe_obj, dogSmile_obj, dogSpot_obj, Fern_obj, Fire_obj, Jump_obj, kidBalloon_obj, kidBike_obj, kidCowboyHat_obj, kidGameGuy_obj, kidIceCream_obj, kidKite_obj, kidSoda_obj, kidTire_obj, Lantern_obj, Lick_obj, Mailbox_obj, Milk_obj, PineCone_obj, SleepingBag_obj, Smile_obj, Stamp_obj, Tent_obj, vintageBug_obj, vintageButterfly_obj, vintageLeaf_obj, vintageMushroom_obj, Wax_obj];
 
 // Check if the mouse is over the sprite
 if (mouse_x >= x && mouse_x <= x + sprite_width && mouse_y >= y && mouse_y <= y + sprite_height) {
@@ -170,7 +170,7 @@ if (mouse_x >= x && mouse_x <= x + sprite_width && mouse_y >= y && mouse_y <= y 
         room_goto(WinRoom); 
     } else {
         // Check if the "brown" or "dog" variable of the clicked object is true
-        if (Brown || Dogs) {
+        if (brown || dogs) {
             // Play the bad sound
             audio_play_sound(Mildno, 1, false); // Arguments: (sound, priority, loop)
             // Set volume
