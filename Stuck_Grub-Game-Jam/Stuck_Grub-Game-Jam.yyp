@@ -129,6 +129,7 @@
     {"id":{"name":"spr_Quit","path":"sprites/spr_Quit/spr_Quit.yy",},},
     {"id":{"name":"spr_Restart","path":"sprites/spr_Restart/spr_Restart.yy",},},
     {"id":{"name":"spr_Start","path":"sprites/spr_Start/spr_Start.yy",},},
+    {"id":{"name":"spr_timer_fill","path":"sprites/spr_timer_fill/spr_timer_fill.yy",},},
     {"id":{"name":"spr_timer","path":"sprites/spr_timer/spr_timer.yy",},},
     {"id":{"name":"Startbutton","path":"sprites/Startbutton/Startbutton.yy",},},
     {"id":{"name":"StartScreen_Sprite","path":"sprites/StartScreen_Sprite/StartScreen_Sprite.yy",},},
