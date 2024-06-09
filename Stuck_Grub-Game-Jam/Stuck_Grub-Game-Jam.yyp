@@ -115,6 +115,8 @@
     {"id":{"name":"BG_tableBook","path":"sprites/BG_tableBook/BG_tableBook.yy",},},
     {"id":{"name":"BorderLose_resize","path":"sprites/BorderLose_resize/BorderLose_resize.yy",},},
     {"id":{"name":"BorderSticker_resize","path":"sprites/BorderSticker_resize/BorderSticker_resize.yy",},},
+    {"id":{"name":"DrawerBackground","path":"sprites/DrawerBackground/DrawerBackground.yy",},},
+    {"id":{"name":"KitchenBackground","path":"sprites/KitchenBackground/KitchenBackground.yy",},},
     {"id":{"name":"Lady_Lose","path":"sprites/Lady_Lose/Lady_Lose.yy",},},
     {"id":{"name":"Lady_Win_1","path":"sprites/Lady_Win_1/Lady_Win_1.yy",},},
     {"id":{"name":"Lady_Win_2","path":"sprites/Lady_Win_2/Lady_Win_2.yy",},},
