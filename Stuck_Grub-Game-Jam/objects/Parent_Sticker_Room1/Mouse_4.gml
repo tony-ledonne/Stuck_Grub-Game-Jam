@@ -38,7 +38,7 @@ if (clickable && mouse_x >= x && mouse_x <= x + sprite_width && mouse_y >= y && 
         var random_x2 = irandom_range(room_width * 0.1, room_width * 0.9); 
         var random_y2 = irandom_range(room_height * 0.1, room_height * 0.9);
         var new_obj2 = instance_create_layer(random_x2, random_y2, layer, selected_object2);        
-<<<<<<< HEAD
+//<<<<<<< HEAD
     } else {
 		// Play the good sound
 		audio_play_sound(oohgood, 1, false); // Arguments: (sound, priority, loop)
@@ -47,12 +47,12 @@ if (clickable && mouse_x >= x && mouse_x <= x + sprite_width && mouse_y >= y && 
 	
 	
 	
-=======
+//=======
          } 
 		 
 		 
->>>>>>> 4dac1a06ad59305d3f25175a0d59b8bcd08cb55e
+//>>>>>>> 4dac1a06ad59305d3f25175a0d59b8bcd08cb55e
     instance_destroy(); // Remove the sprite from the game
 	
 	
-}
+//}
