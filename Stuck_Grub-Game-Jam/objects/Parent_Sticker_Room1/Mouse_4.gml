@@ -23,8 +23,6 @@ if (room == Background_1_1) {
 	        if( place_meeting(x, y, Parent_Sticker_Room1)==false)
 			
 			{
-				audio_play_sound(oohyes, 1, false);
-		   		audio_sound_gain(oohyes, 1.25, 0);
 				room_goto(Background_1_2); 
 			}
 	    } else {
@@ -99,8 +97,6 @@ if (mouse_x >= x && mouse_x <= x + sprite_width && mouse_y >= y && mouse_y <= y 
     if (variable_instance_exists(self, "winner2") && winner2) {
 		if( place_meeting(x, y, Parent_Sticker_Room1)==false) {
 			// Change room to the desired room
-			audio_play_sound(oohyes, 1, false);
-			audio_sound_gain(oohyes, 1.25, 0);
 			room_goto(Background_1_3); 
 		}
     } else {
@@ -181,8 +177,6 @@ if (mouse_x >= x && mouse_x <= x + sprite_width && mouse_y >= y && mouse_y <= y 
     if (variable_instance_exists(self, "winner3") && winner3) {
 		if( place_meeting(x, y, Parent_Sticker_Room1)==false) {
 			// Change room to the desired room
-			audio_play_sound(oohyes, 1, false);			
-			audio_sound_gain(oohyes, 1.25, 0);
 			room_goto(WinRoom); 
 		}
     } else {
