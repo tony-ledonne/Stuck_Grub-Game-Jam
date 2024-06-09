@@ -11,6 +11,11 @@ time_remaining = 0;
 max_time = 15 * room_speed; // room_speed gives the number of steps per second
 
 // Maximum width of the timer bar
-bar_height = -800;
+bar_height = sprite_height;
 
+// Sprite for the timer fill
+timer_fill_sprite = spr_timer_fill;
+// Position adjustment for the fill bar within the border
+fill_x_offset = 0; // Adjust this value based on the border width
+fill_y_offset = 0; // Adjust this value based on the border width
 

@@ -10,8 +10,8 @@ if (room == Background_1_1) {
 	        // Change room to the desired room
 	        room_goto(Background_1_2); 
 	    } else {
-	        // Check if the "pink" variable of the clicked object is true
-	        if (cat || food || green) {
+	        // Check if the "green" or "cats" variable of the clicked object is true
+	        if (cat || green) {
 	            // Play the bad sound
 	            audio_play_sound(Mildno, 1, false); // Arguments: (sound, priority, loop)
 	            // Set volume
@@ -86,7 +86,7 @@ if (mouse_x >= x && mouse_x <= x + sprite_width && mouse_y >= y && mouse_y <= y 
         room_goto(Background_1_3); 
     } else {
         // Check if the "pink" variable of the clicked object is true
-        if (cat || food || green) {
+        if (nature || violet) {
             // Play the bad sound
             audio_play_sound(Mildno, 1, false); // Arguments: (sound, priority, loop)
             // Set volume
@@ -146,6 +146,7 @@ if (mouse_x >= x && mouse_x <= x + sprite_width && mouse_y >= y && mouse_y <= y 
 }
 } */
 }
+}
 
   // Check Room
 if (room == Background_1_3) {
@@ -160,7 +161,7 @@ if (mouse_x >= x && mouse_x <= x + sprite_width && mouse_y >= y && mouse_y <= y 
         room_goto(WinRoom); 
     } else {
         // Check if the "pink" variable of the clicked object is true
-        if (cat || food || green) {
+        if (Brown || Dogs) {
             // Play the bad sound
             audio_play_sound(Mildno, 1, false); // Arguments: (sound, priority, loop)
             // Set volume
@@ -293,4 +294,3 @@ if (room == Background_1_3){
 		}
 */
 	}
-}

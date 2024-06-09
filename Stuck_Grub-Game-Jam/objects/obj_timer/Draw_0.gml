@@ -2,15 +2,16 @@
 // You can write your code in this editor
 
 // Draw Event
-// Calculate the width of the bar based on the time passed
-var current_height = (time_remaining / max_time) * bar_height;
+
 
 // Draw the background sprite
-draw_sprite(timer_background, 0, x, y);
+draw_sprite(spr_timer, 0, x, y);
 
-// Draw the timer bar as a red rectangle
-draw_set_color(c_red);
-draw_rectangle(x, y, x + 50, y + current_height, false); // Adjust the height and y position as needed
+// Calculate the width of the filling bar based on the time passed
+var current_height = (time_remaining / max_time) * bar_height;
 
-draw_set_color(c_black);
-draw_rectangle(x, y, x + 50, y + current_height, true); // True for outline
+// Calculate the x position to start drawing the fill bar from the right
+var fill_start_y = y + sprite_height - fill_y_offset - current_height;
+
+// Draw the filling bar
+draw_sprite_part(timer_fill_sprite, 1, 0, 0, sprite_width, current_height, x , y - fill_start_y);
