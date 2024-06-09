@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_Restart",
+    "path":"sprites/spr_Restart/spr_Restart.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

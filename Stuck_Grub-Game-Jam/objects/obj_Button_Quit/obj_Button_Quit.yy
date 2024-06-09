@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_Quit",
+    "path":"sprites/spr_Quit/spr_Quit.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
