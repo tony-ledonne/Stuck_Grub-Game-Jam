@@ -1,5 +1,5 @@
-// Define an array containing the names of the objects in the subset
-var object_subset = [Envelope_obj, Mailbox_obj, Package_obj, SmallFlower_obj];
+// Define an array containing the names of the objects in the subset (- Luca)
+var object_subset = [Envelope_obj, Mailbox_obj, Package_obj, SmallFlower_obj, Acorns_obj, Axe_obj, Bear_obj, Bed_obj, Butterfly_obj, Canoe_obj, dogSmile_obj, dogSpot_obj, Fern_obj, Fire_obj, Jump_obj, kidBalloon_obj, kidBike_obj, kidCowboyHat_obj, kidGameGuy_obj, kidIceCream_obj, kidKite_obj, kidSoda_obj, kidSunglasses_obj, kidTire_obj, Lantern_obj, Lick_obj, Mailbox_obj, Milk_obj, PineCone_obj, SleepingBag_obj, Smile_obj, Snail_obj, Stamp_obj, Tent_obj, vintageBug_obj, vintageButterfly_obj, vintageLeaf_obj, vintageMushroom_obj, Wax_obj];
 
 // Check if the mouse is over the sprite
 if (mouse_x >= x && mouse_x <= x + sprite_width && mouse_y >= y && mouse_y <= y + sprite_height) {
