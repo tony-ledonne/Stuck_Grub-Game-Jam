@@ -110,6 +110,7 @@
     {"id":{"name":"spr_Quit","path":"sprites/spr_Quit/spr_Quit.yy",},},
     {"id":{"name":"spr_Restart","path":"sprites/spr_Restart/spr_Restart.yy",},},
     {"id":{"name":"spr_Start","path":"sprites/spr_Start/spr_Start.yy",},},
+    {"id":{"name":"Sprite48","path":"sprites/Sprite48/Sprite48.yy",},},
     {"id":{"name":"StartScreen_Sprite","path":"sprites/StartScreen_Sprite/StartScreen_Sprite.yy",},},
     {"id":{"name":"Sticker_Acorns","path":"sprites/Sticker_Acorns/Sticker_Acorns.yy",},},
     {"id":{"name":"Sticker_campingAxe","path":"sprites/Sticker_campingAxe/Sticker_campingAxe.yy",},},
