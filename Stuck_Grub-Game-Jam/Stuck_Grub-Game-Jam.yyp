@@ -167,6 +167,8 @@
     {"id":{"name":"Sticker_vintageMushroom","path":"sprites/Sticker_vintageMushroom/Sticker_vintageMushroom.yy",},},
     {"id":{"name":"STUCK_TITLE","path":"sprites/STUCK_TITLE/STUCK_TITLE.yy",},},
     {"id":{"name":"WinScreen_Sprite","path":"sprites/WinScreen_Sprite/WinScreen_Sprite.yy",},},
+    {"id":{"name":"youlosetext","path":"sprites/youlosetext/youlosetext.yy",},},
+    {"id":{"name":"youwintext","path":"sprites/youwintext/youwintext.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
