@@ -79,6 +79,7 @@
     {"id":{"name":"obj_Button_Start","path":"objects/obj_Button_Start/obj_Button_Start.yy",},},
     {"id":{"name":"obj_hand_cursor","path":"objects/obj_hand_cursor/obj_hand_cursor.yy",},},
     {"id":{"name":"obj_objective_box","path":"objects/obj_objective_box/obj_objective_box.yy",},},
+    {"id":{"name":"obj_objective_box2","path":"objects/obj_objective_box2/obj_objective_box2.yy",},},
     {"id":{"name":"obj_room_controller","path":"objects/obj_room_controller/obj_room_controller.yy",},},
     {"id":{"name":"obj_timer","path":"objects/obj_timer/obj_timer.yy",},},
     {"id":{"name":"Package_obj","path":"objects/Package_obj/Package_obj.yy",},},

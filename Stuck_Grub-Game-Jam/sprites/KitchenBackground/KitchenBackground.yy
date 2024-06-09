@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"KitchenBackground",
   "bboxMode":0,
-  "bbox_bottom":1663,
+  "bbox_bottom":1096,
   "bbox_left":0,
-  "bbox_right":2911,
+  "bbox_right":1919,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":1664,
+  "height":1097,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"d6cac91b-7471-4967-8423-2ca916d00bf5","blendMode":0,"displayName":"default","isLocked":false,"name":"d6cac91b-7471-4967-8423-2ca916d00bf5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":2912,
+  "width":1920,
 }
