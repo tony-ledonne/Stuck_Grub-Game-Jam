@@ -95,6 +95,7 @@
     {"id":{"name":"StartRoom","path":"rooms/StartRoom/StartRoom.yy",},},
     {"id":{"name":"WinRoom","path":"rooms/WinRoom/WinRoom.yy",},},
     {"id":{"name":"background","path":"sounds/background/background.yy",},},
+    {"id":{"name":"Buttonclick","path":"sounds/Buttonclick/Buttonclick.yy",},},
     {"id":{"name":"guitarlofi","path":"sounds/guitarlofi/guitarlofi.yy",},},
     {"id":{"name":"hardno","path":"sounds/hardno/hardno.yy",},},
     {"id":{"name":"losingrant","path":"sounds/losingrant/losingrant.yy",},},
