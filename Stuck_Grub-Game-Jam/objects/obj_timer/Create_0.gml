@@ -2,6 +2,9 @@
 // You can write your code in this editor
 
 // Create Event
-timer = 0;
-max_time = 3600; // Set the maximum time (in steps) for the progress bar to fill (e.g., 300 steps = 5 seconds at 60 fps)
+// Timer starts from 2 minutes (120 seconds)
+time_remaining = 30 * room_speed; // room_speed gives the number of steps per second
+
+// Maximum width of the timer bar
+bar_width = 200;
 
