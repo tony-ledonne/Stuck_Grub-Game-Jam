@@ -105,6 +105,7 @@
     {"id":{"name":"titlesound","path":"sounds/titlesound/titlesound.yy",},},
     {"id":{"name":"winning","path":"sounds/winning/winning.yy",},},
     {"id":{"name":"Background_1_Sprite1","path":"sprites/Background_1_Sprite1/Background_1_Sprite1.yy",},},
+    {"id":{"name":"Background_Book","path":"sprites/Background_Book/Background_Book.yy",},},
     {"id":{"name":"Hand_Cursor_spr","path":"sprites/Hand_Cursor_spr/Hand_Cursor_spr.yy",},},
     {"id":{"name":"LoseScreen_Sprite","path":"sprites/LoseScreen_Sprite/LoseScreen_Sprite.yy",},},
     {"id":{"name":"spr_Quit","path":"sprites/spr_Quit/spr_Quit.yy",},},
