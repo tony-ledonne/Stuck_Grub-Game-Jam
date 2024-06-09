@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Timer",
-    "path":"sprites/spr_Timer/spr_Timer.yy",
+    "name":"spr_timer",
+    "path":"sprites/spr_timer/spr_timer.yy",
   },
   "spriteMaskId":null,
   "visible":true,
