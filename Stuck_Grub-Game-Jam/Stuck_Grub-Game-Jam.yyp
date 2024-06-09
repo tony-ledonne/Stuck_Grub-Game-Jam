@@ -155,6 +155,7 @@
     {"id":{"name":"Sticker_vintageButterfly","path":"sprites/Sticker_vintageButterfly/Sticker_vintageButterfly.yy",},},
     {"id":{"name":"Sticker_vintageLeaf","path":"sprites/Sticker_vintageLeaf/Sticker_vintageLeaf.yy",},},
     {"id":{"name":"Sticker_vintageMushroom","path":"sprites/Sticker_vintageMushroom/Sticker_vintageMushroom.yy",},},
+    {"id":{"name":"STUCK_TITLE","path":"sprites/STUCK_TITLE/STUCK_TITLE.yy",},},
     {"id":{"name":"WinScreen_Sprite","path":"sprites/WinScreen_Sprite/WinScreen_Sprite.yy",},},
   ],
   "resourceType":"GMProject",
