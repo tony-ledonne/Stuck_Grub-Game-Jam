@@ -46,6 +46,7 @@
   },
   "name":"Stuck_Grub-Game-Jam",
   "resources":[
+    {"id":{"name":"fnt_grandma_handwriting","path":"fonts/fnt_grandma_handwriting/fnt_grandma_handwriting.yy",},},
     {"id":{"name":"fnt_timer","path":"fonts/fnt_timer/fnt_timer.yy",},},
     {"id":{"name":"Acorns_obj","path":"objects/Acorns_obj/Acorns_obj.yy",},},
     {"id":{"name":"Axe_obj","path":"objects/Axe_obj/Axe_obj.yy",},},
@@ -77,6 +78,7 @@
     {"id":{"name":"obj_Button_Restart","path":"objects/obj_Button_Restart/obj_Button_Restart.yy",},},
     {"id":{"name":"obj_Button_Start","path":"objects/obj_Button_Start/obj_Button_Start.yy",},},
     {"id":{"name":"obj_hand_cursor","path":"objects/obj_hand_cursor/obj_hand_cursor.yy",},},
+    {"id":{"name":"obj_objective_box","path":"objects/obj_objective_box/obj_objective_box.yy",},},
     {"id":{"name":"obj_room_controller","path":"objects/obj_room_controller/obj_room_controller.yy",},},
     {"id":{"name":"obj_timer","path":"objects/obj_timer/obj_timer.yy",},},
     {"id":{"name":"Package_obj","path":"objects/Package_obj/Package_obj.yy",},},
