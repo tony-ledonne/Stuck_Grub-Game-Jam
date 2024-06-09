@@ -5,21 +5,21 @@
   "bbox_bottom":240,
   "bbox_left":5,
   "bbox_right":381,
-  "bbox_top":4,
+  "bbox_top":5,
   "collisionKind":4,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"31f5953c-abc9-4d99-b9d3-8b3d6a212267","name":"31f5953c-abc9-4d99-b9d3-8b3d6a212267","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"6e862107-4bff-4487-ae37-8686459a5f5c","name":"6e862107-4bff-4487-ae37-8686459a5f5c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":244,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"085432b6-f0f4-45be-a68c-9c4edd202c7b","blendMode":0,"displayName":"default","isLocked":false,"name":"085432b6-f0f4-45be-a68c-9c4edd202c7b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"3a9d3db5-25f3-4bbd-bac4-ebe9234faa9d","blendMode":0,"displayName":"default","isLocked":false,"name":"3a9d3db5-25f3-4bbd-bac4-ebe9234faa9d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Sticker_Luca",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"31f5953c-abc9-4d99-b9d3-8b3d6a212267","path":"sprites/Sticker_Luca/Sticker_Luca.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"777d0da6-e5ae-4ee0-a90e-9f89565c859d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6e862107-4bff-4487-ae37-8686459a5f5c","path":"sprites/Sticker_Luca/Sticker_Luca.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"89dd2892-9e7a-4b65-a670-5f49ae356bf0","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"Sticker_kidSunglasses",
   "bboxMode":0,
-  "bbox_bottom":102,
-  "bbox_left":8,
-  "bbox_right":180,
+  "bbox_bottom":101,
+  "bbox_left":7,
+  "bbox_right":178,
   "bbox_top":7,
   "collisionKind":4,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"32d71439-86e3-4984-9349-7960f8417454","name":"32d71439-86e3-4984-9349-7960f8417454","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"ec8dbf24-bf36-47a3-a642-22c53a209f1b","name":"ec8dbf24-bf36-47a3-a642-22c53a209f1b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":106,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"c7ab5673-776a-4cbd-86e9-ff3bac78083b","blendMode":0,"displayName":"default","isLocked":false,"name":"c7ab5673-776a-4cbd-86e9-ff3bac78083b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"9431af8e-a083-42cf-a60e-aff8bdace70e","blendMode":0,"displayName":"default","isLocked":false,"name":"9431af8e-a083-42cf-a60e-aff8bdace70e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Sticker_kidSunglasses",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"32d71439-86e3-4984-9349-7960f8417454","path":"sprites/Sticker_kidSunglasses/Sticker_kidSunglasses.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"3aa75adc-36c8-409a-bbec-8c820df50c8b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ec8dbf24-bf36-47a3-a642-22c53a209f1b","path":"sprites/Sticker_kidSunglasses/Sticker_kidSunglasses.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6ccdbcdf-f8fa-4253-8fc5-33b6b7ec0ca3","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
