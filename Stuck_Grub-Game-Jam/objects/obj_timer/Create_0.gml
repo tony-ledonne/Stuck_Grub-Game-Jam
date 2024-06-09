@@ -3,8 +3,9 @@
 
 // Create Event
 // Timer starts from 2 minutes (120 seconds)
-time_remaining = 30 * room_speed; // room_speed gives the number of steps per second
+time_remaining = 0;
+max_time = 120 * room_speed; // room_speed gives the number of steps per second
 
 // Maximum width of the timer bar
-bar_width = 200;
+bar_height = -800;
 

@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Restart",
-    "path":"sprites/spr_Restart/spr_Restart.yy",
+    "name":"Restartbutton",
+    "path":"sprites/Restartbutton/Restartbutton.yy",
   },
   "spriteMaskId":null,
   "visible":true,
