@@ -179,7 +179,7 @@ if (mouse_x >= x && mouse_x <= x + sprite_width && mouse_y >= y && mouse_y <= y 
 			room_goto(WinRoom); 
     } else {
         // Check if the "brown" or "dog" variable of the clicked object is true
-        if (brown || dogs) {
+        if (brown || dog) {
             // Play the bad sound
             audio_play_sound(Mildno, 1, false); // Arguments: (sound, priority, loop)
             // Set volume
