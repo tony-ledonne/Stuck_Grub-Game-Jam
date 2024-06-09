@@ -31,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_Timer",
+    "path":"sprites/spr_Timer/spr_Timer.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
