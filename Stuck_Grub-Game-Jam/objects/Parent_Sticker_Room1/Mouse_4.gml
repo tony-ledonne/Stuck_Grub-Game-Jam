@@ -13,7 +13,7 @@ if (mouse_x >= x && mouse_x <= x + sprite_width && mouse_y >= y && mouse_y <= y 
             // Play the bad sound
             audio_play_sound(Mildno, 1, false); // Arguments: (sound, priority, loop)
             // Set volume to 50% for nosound
-            audio_sound_gain(Mildno, 0.5, 0);
+            audio_sound_gain(Mildno, 1, 0);
 
             // Spawn first object
             var random_index1 = irandom_range(0, array_length_1d(object_subset) - 1);
