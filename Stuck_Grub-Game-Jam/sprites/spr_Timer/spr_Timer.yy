@@ -42,7 +42,7 @@
     ],
     "top":0,
   },
-  "origin":7,
+  "origin":6,
   "parent":{
     "name":"spr_Timer",
     "path":"folders/Sprites/spr_Timer.yy",
@@ -94,7 +94,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":45,
+    "xorigin":0,
     "yorigin":900,
   },
   "swatchColours":null,

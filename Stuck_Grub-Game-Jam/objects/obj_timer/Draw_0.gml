@@ -5,6 +5,9 @@
 // Calculate the width of the bar based on the time passed
 var current_height = (time_remaining / max_time) * bar_height;
 
+// Draw the background sprite
+draw_sprite(timer_background, 0, x, y);
+
 // Draw the timer bar as a red rectangle
 draw_set_color(c_red);
 draw_rectangle(x, y, x + 50, y + current_height, false); // Adjust the height and y position as needed
