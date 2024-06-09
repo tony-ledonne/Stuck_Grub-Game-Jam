@@ -2,7 +2,7 @@
 var object_subset = [Envelope_obj, Mailbox_obj, Package_obj, SmallFlower_obj];
 
 // Check if the mouse is over the sprite
-if (mouse_x >= x && mouse_x <= x + sprite_width && mouse_y >= y && mouse_y <= y + sprite_height) {
+if (clickable && mouse_x >= x && mouse_x <= x + sprite_width && mouse_y >= y && mouse_y <= y + sprite_height) {
 	//var Clickable = true;
     
   // Loop through all instances of the parent object to check if any child sticker obscures this one
@@ -33,5 +33,9 @@ if (mouse_x >= x && mouse_x <= x + sprite_width && mouse_y >= y && mouse_y <= y 
         var random_y2 = irandom_range(room_height * 0.1, room_height * 0.9);
         var new_obj2 = instance_create_layer(random_x2, random_y2, layer, selected_object2);        
          } 
+		 
+		 
     instance_destroy(); // Remove the sprite from the game
+	
+	
 }
