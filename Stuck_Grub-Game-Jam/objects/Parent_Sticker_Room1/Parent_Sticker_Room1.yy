@@ -63,6 +63,7 @@
     {"$GMObjectProperty":"v1","%Name":"food","filters":[],"listItems":[],"multiselect":false,"name":"food","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"winner2","filters":[],"listItems":[],"multiselect":false,"name":"winner2","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"winner3","filters":[],"listItems":[],"multiselect":false,"name":"winner3","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"nature","filters":[],"listItems":[],"multiselect":false,"name":"nature","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

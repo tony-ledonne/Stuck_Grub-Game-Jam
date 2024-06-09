@@ -4,7 +4,10 @@
   "eventList":[],
   "managed":true,
   "name":"PineCone_obj",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Parent_Sticker_Room1","path":"objects/Parent_Sticker_Room1/Parent_Sticker_Room1.yy",},"propertyId":{"name":"brown","path":"objects/Parent_Sticker_Room1/Parent_Sticker_Room1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Parent_Sticker_Room1","path":"objects/Parent_Sticker_Room1/Parent_Sticker_Room1.yy",},"propertyId":{"name":"nature","path":"objects/Parent_Sticker_Room1/Parent_Sticker_Room1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
+  ],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
