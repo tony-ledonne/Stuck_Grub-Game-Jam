@@ -26,7 +26,11 @@ with(Parent_Sticker_Room1) {
     // Skip self
     if (id != other.id) {
         // Check for pixel-perfect collision
+		
+		
         var overlap = false;
+		
+		/*
         for (var xx = bbox_left; xx < bbox_right; xx += 1) {
             for (var yy = bbox_top; yy < bbox_bottom; yy += 1) {
                 if (collision_point(xx, yy, other, false, true)) {
@@ -35,7 +39,8 @@ with(Parent_Sticker_Room1) {
                 }
             }
             if (overlap) break;
-        }
+        } */
+		overlap = collision_point (x, y, Parent_Sticker_Room1, true, false);
         
         // If overlap detected, compare depths
         if (overlap) {

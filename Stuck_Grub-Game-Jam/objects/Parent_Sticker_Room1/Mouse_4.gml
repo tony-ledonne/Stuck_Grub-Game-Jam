@@ -2,7 +2,7 @@
 var object_subset = [Envelope_obj, Mailbox_obj, Package_obj, SmallFlower_obj];
 
 // Check if the mouse is over the sprite
-if (clickable && mouse_x >= x && mouse_x <= x + sprite_width && mouse_y >= y && mouse_y <= y + sprite_height) {
+if (mouse_x >= x && mouse_x <= x + sprite_width && mouse_y >= y && mouse_y <= y + sprite_height) {
     // Check if the "winner" variable of the clicked object is true
     if (variable_instance_exists(self, "winner") && winner) {
         // Change room to the desired room
