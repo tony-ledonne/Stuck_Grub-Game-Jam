@@ -4,12 +4,17 @@
   "eventList":[],
   "managed":true,
   "name":"vintageLeaf_obj",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Parent_Sticker_Room1","path":"objects/Parent_Sticker_Room1/Parent_Sticker_Room1.yy",},"propertyId":{"name":"green","path":"objects/Parent_Sticker_Room1/Parent_Sticker_Room1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
+  ],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Parent_Sticker_Room1",
+    "path":"objects/Parent_Sticker_Room1/Parent_Sticker_Room1.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
